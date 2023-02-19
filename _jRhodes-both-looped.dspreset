@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler minVersion="1.0.0">
+  <ui width="812" height="375" layoutMode="relative"
+      bgMode="top_left">
+    <tab name="main">
+      <labeled-knob x="445" y="75" width="90" textSize="16" textColor="AA000000" 
+                    trackForegroundColor="CC000000" trackBackgroundColor="66999999" 
+                    label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01" >
+        <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+      </labeled-knob>
+      <labeled-knob x="515" y="75" width="90" textSize="16" textColor="AA000000" 
+                    trackForegroundColor="CC000000" trackBackgroundColor="66999999" 
+                    label="Release" type="float" minValue="0.0" maxValue="20.0" value="1" >
+        <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+      </labeled-knob>
+      <labeled-knob x="585" y="75" width="90" textSize="16" textColor="AA000000" 
+                    trackForegroundColor="CC000000" trackBackgroundColor="66999999" 
+                    label="Chorus" type="float" minValue="0.0" maxValue="1" value="0" >
+        <binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+      </labeled-knob>
+      <labeled-knob x="655" y="75" width="90" textSize="16" textColor="FF000000"
+                    trackForegroundColor="CC000000" trackBackgroundColor="66999999"
+                    label="Tone" type="float" minValue="0" maxValue="1" value="1">
+        <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY"
+                 translation="table" 
+                 translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000"/>
+      </labeled-knob>
+      <labeled-knob x="725" y="75" width="90" textSize="16" textColor="AA000000" 
+                    trackForegroundColor="CC000000" trackBackgroundColor="66999999" 
+                    label="Reverb" type="percent" minValue="0" maxValue="100" 
+                    textColor="FF000000" value="50">
+        <binding type="effect" level="instrument" position="2" 
+                 parameter="FX_REVERB_WET_LEVEL" translation="linear" 
+                 translationOutputMin="0" translationOutputMax="1" />
+      </labeled-knob>
+    </tab>
+  </ui>
+  <groups>
+        <group attack="0.000" decay="25" sustain="1.0" release="0.430" volume="-3dB">
+            <sample end="50502.000" hiNote="44" hiVel="47" loNote="36" loVel="1" path="_jRhodes-both-looped Samples/As_029__F1_51-mono.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="45820.000" hiNote="44" hiVel="72" loNote="36" loVel="48" path="_jRhodes-both-looped Samples/As_029__F1_431-mono.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="196638.000" hiNote="44" hiVel="95" loNote="36" loVel="73" path="_jRhodes-both-looped Samples/As_029__F1_361-mono.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="264129.000" hiNote="44" hiVel="111" loNote="36" loVel="96" path="_jRhodes-both-looped Samples/As_029__F1_279-mono.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="322449.000" hiNote="44" hiVel="127" loNote="36" loVel="112" path="_jRhodes-both-looped Samples/As_029__F1_1109-mono.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="47536.000" hiNote="49" hiVel="47" loNote="45" loVel="1" path="_jRhodes-both-looped Samples/As_035__B1_53-mono.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="87658.000" hiNote="49" hiVel="72" loNote="45" loVel="48" path="_jRhodes-both-looped Samples/As_035__B1_433-mono.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="104926.000" hiNote="49" hiVel="95" loNote="45" loVel="73" path="_jRhodes-both-looped Samples/As_035__B1_363-mono.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="142068.000" hiNote="49" hiVel="111" loNote="45" loVel="96" path="_jRhodes-both-looped Samples/As_035__B1_281-mono.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="265511.000" hiNote="49" hiVel="127" loNote="45" loVel="112" path="_jRhodes-both-looped Samples/As_035__B1_1111-mono.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="53869.000" hiNote="54" hiVel="47" loNote="50" loVel="1" path="_jRhodes-both-looped Samples/As_040__E2_55-mono.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="77250.000" hiNote="54" hiVel="72" loNote="50" loVel="48" path="_jRhodes-both-looped Samples/As_040__E2_435-mono.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="95029.000" hiNote="54" hiVel="95" loNote="50" loVel="73" path="_jRhodes-both-looped Samples/As_040__E2_365-mono.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="123402.000" hiNote="54" hiVel="111" loNote="50" loVel="96" path="_jRhodes-both-looped Samples/As_040__E2_283-mono.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="199758.000" hiNote="54" hiVel="127" loNote="50" loVel="112" path="_jRhodes-both-looped Samples/As_040__E2_1113-mono.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="23740.000" hiNote="59" hiVel="47" loNote="55" loVel="1" path="_jRhodes-both-looped Samples/As_045__A2_57-mono.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="58579.000" hiNote="59" hiVel="72" loNote="55" loVel="48" path="_jRhodes-both-looped Samples/As_045__A2_437-mono.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="69018.000" hiNote="59" hiVel="95" loNote="55" loVel="73" path="_jRhodes-both-looped Samples/As_045__A2_367-mono.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="148331.000" hiNote="59" hiVel="111" loNote="55" loVel="96" path="_jRhodes-both-looped Samples/As_045__A2_285-mono.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="162532.000" hiNote="59" hiVel="127" loNote="55" loVel="112" path="_jRhodes-both-looped Samples/As_045__A2_1115-mono.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="50864.000" hiNote="64" hiVel="47" loNote="60" loVel="1" path="_jRhodes-both-looped Samples/As_050__D3_59-mono.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="55391.000" hiNote="64" hiVel="72" loNote="60" loVel="48" path="_jRhodes-both-looped Samples/As_050__D3_439-mono.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="101439.000" hiNote="64" hiVel="95" loNote="60" loVel="73" path="_jRhodes-both-looped Samples/As_050__D3_369-mono.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="117359.000" hiNote="64" hiVel="111" loNote="60" loVel="96" path="_jRhodes-both-looped Samples/As_050__D3_287-mono.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="180602.000" hiNote="64" hiVel="127" loNote="60" loVel="112" path="_jRhodes-both-looped Samples/As_050__D3_1117-mono.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="48410.000" hiNote="69" hiVel="47" loNote="65" loVel="1" path="_jRhodes-both-looped Samples/As_055__G3_511-mono.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="59851.000" hiNote="69" hiVel="72" loNote="65" loVel="48" path="_jRhodes-both-looped Samples/As_055__G3_441-mono.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="129739.000" hiNote="69" hiVel="95" loNote="65" loVel="73" path="_jRhodes-both-looped Samples/As_055__G3_371-mono.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="144365.000" hiNote="69" hiVel="111" loNote="65" loVel="96" path="_jRhodes-both-looped Samples/As_055__G3_289-mono.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="293888.000" hiNote="68" hiVel="127" loNote="65" loVel="112" path="_jRhodes-both-looped Samples/As_055__G3_1119-mono.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="65729.000" hiNote="72" hiVel="47" loNote="70" loVel="1" path="_jRhodes-both-looped Samples/As_059__B3_513-mono.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="92552.000" hiNote="72" hiVel="72" loNote="70" loVel="48" path="_jRhodes-both-looped Samples/As_059__B3_443-mono.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="129762.000" hiNote="72" hiVel="95" loNote="70" loVel="73" path="_jRhodes-both-looped Samples/As_059__B3_373-mono.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="97397.000" hiNote="72" hiVel="111" loNote="70" loVel="96" path="_jRhodes-both-looped Samples/As_059__B3_291-mono.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="139494.000" hiNote="72" hiVel="127" loNote="69" loVel="112" path="_jRhodes-both-looped Samples/As_059__B3_1121-mono.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="74402.000" hiNote="75" hiVel="47" loNote="73" loVel="1" path="_jRhodes-both-looped Samples/As_062__D4_513-mono.wav" pitchKeyTrack="1.0000" rootNote="74" start="0.000"/>
+            <sample end="113835.000" hiNote="75" hiVel="72" loNote="73" loVel="48" path="_jRhodes-both-looped Samples/As_062__D4_445-mono.wav" pitchKeyTrack="1.0000" rootNote="74" start="0.000"/>
+            <sample end="143682.000" hiNote="75" hiVel="95" loNote="73" loVel="73" path="_jRhodes-both-looped Samples/As_062__D4_375-mono.wav" pitchKeyTrack="1.0000" rootNote="74" start="0.000"/>
+            <sample end="186222.000" hiNote="75" hiVel="111" loNote="73" loVel="96" path="_jRhodes-both-looped Samples/As_062__D4_293-mono.wav" pitchKeyTrack="1.0000" rootNote="74" start="0.000"/>
+            <sample end="153923.000" hiNote="75" hiVel="127" loNote="73" loVel="112" path="_jRhodes-both-looped Samples/As_062__D4_1123-mono.wav" pitchKeyTrack="1.0000" rootNote="74" start="0.000"/>
+            <sample end="60682.000" hiNote="80" hiVel="47" loNote="76" loVel="1" path="_jRhodes-both-looped Samples/As_065__F4_517-mono.wav" pitchKeyTrack="1.0000" rootNote="77" start="0.000"/>
+            <sample end="183880.000" hiNote="80" hiVel="72" loNote="76" loVel="48" path="_jRhodes-both-looped Samples/As_065__F4_447-mono.wav" pitchKeyTrack="1.0000" rootNote="77" start="0.000"/>
+            <sample end="162273.000" hiNote="80" hiVel="95" loNote="76" loVel="73" path="_jRhodes-both-looped Samples/As_065__F4_377-mono.wav" pitchKeyTrack="1.0000" rootNote="77" start="0.000"/>
+            <sample end="181403.000" hiNote="80" hiVel="111" loNote="76" loVel="96" path="_jRhodes-both-looped Samples/As_065__F4_295-mono.wav" pitchKeyTrack="1.0000" rootNote="77" start="0.000"/>
+            <sample end="156045.000" hiNote="80" hiVel="127" loNote="76" loVel="112" path="_jRhodes-both-looped Samples/As_065__F4_1125-mono.wav" pitchKeyTrack="1.0000" rootNote="77" start="0.000"/>
+            <sample end="69765.000" hiNote="85" hiVel="47" loNote="81" loVel="1" path="_jRhodes-both-looped Samples/As_071__B4_519-mono.wav" pitchKeyTrack="1.0000" rootNote="83" start="0.000"/>
+            <sample end="179006.000" hiNote="85" hiVel="72" loNote="81" loVel="48" path="_jRhodes-both-looped Samples/As_071__B4_449-mono.wav" pitchKeyTrack="1.0000" rootNote="83" start="0.000"/>
+            <sample end="179006.000" hiNote="85" hiVel="95" loNote="81" loVel="73" path="_jRhodes-both-looped Samples/As_071__B4_449-mono.wav" pitchKeyTrack="1.0000" rootNote="83" start="0.000"/>
+            <sample end="178239.000" hiNote="85" hiVel="111" loNote="81" loVel="96" path="_jRhodes-both-looped Samples/As_071__B4_297-mono.wav" pitchKeyTrack="1.0000" rootNote="83" start="0.000"/>
+            <sample end="186550.000" hiNote="85" hiVel="127" loNote="81" loVel="112" path="_jRhodes-both-looped Samples/As_071__B4_1127-mono.wav" pitchKeyTrack="1.0000" rootNote="83" start="0.000"/>
+            <sample end="54502.000" hiNote="90" hiVel="47" loNote="86" loVel="1" path="_jRhodes-both-looped Samples/As_076__E5_521-mono.wav" pitchKeyTrack="1.0000" rootNote="88" start="0.000"/>
+            <sample end="102762.000" hiNote="90" hiVel="72" loNote="86" loVel="48" path="_jRhodes-both-looped Samples/As_076__E5_451-mono.wav" pitchKeyTrack="1.0000" rootNote="88" start="0.000"/>
+            <sample end="102762.000" hiNote="90" hiVel="95" loNote="86" loVel="73" path="_jRhodes-both-looped Samples/As_076__E5_451-mono.wav" pitchKeyTrack="1.0000" rootNote="88" start="0.000"/>
+            <sample end="166971.000" hiNote="90" hiVel="111" loNote="86" loVel="96" path="_jRhodes-both-looped Samples/As_076__E5_299-mono.wav" pitchKeyTrack="1.0000" rootNote="88" start="0.000"/>
+            <sample end="147273.000" hiNote="90" hiVel="127" loNote="86" loVel="112" path="_jRhodes-both-looped Samples/As_076__E5_1129-mono.wav" pitchKeyTrack="1.0000" rootNote="88" start="0.000"/>
+            <sample end="77876.000" hiNote="95" hiVel="47" loNote="91" loVel="1" path="_jRhodes-both-looped Samples/As_081__A5_523-mono.wav" pitchKeyTrack="1.0000" rootNote="93" start="0.000"/>
+            <sample end="139668.000" hiNote="95" hiVel="72" loNote="91" loVel="48" path="_jRhodes-both-looped Samples/As_081__A5_453-mono.wav" pitchKeyTrack="1.0000" rootNote="93" start="0.000"/>
+            <sample end="139668.000" hiNote="95" hiVel="95" loNote="91" loVel="73" path="_jRhodes-both-looped Samples/As_081__A5_453-mono.wav" pitchKeyTrack="1.0000" rootNote="93" start="0.000"/>
+            <sample end="189679.000" hiNote="95" hiVel="111" loNote="91" loVel="96" path="_jRhodes-both-looped Samples/As_081__A5_2101-mono.wav" pitchKeyTrack="1.0000" rootNote="93" start="0.000"/>
+            <sample end="189679.000" hiNote="95" hiVel="127" loNote="91" loVel="112" path="_jRhodes-both-looped Samples/As_081__A5_2101-mono.wav" pitchKeyTrack="1.0000" rootNote="93" start="0.000"/>
+            <sample end="78156.000" hiNote="100" hiVel="47" loNote="96" loVel="1" path="_jRhodes-both-looped Samples/As_086__D6_525-mono.wav" pitchKeyTrack="1.0000" rootNote="98" start="0.000"/>
+            <sample end="142314.000" hiNote="100" hiVel="72" loNote="96" loVel="48" path="_jRhodes-both-looped Samples/As_086__D6_455-mono.wav" pitchKeyTrack="1.0000" rootNote="98" start="0.000"/>
+            <sample end="142314.000" hiNote="100" hiVel="95" loNote="96" loVel="73" path="_jRhodes-both-looped Samples/As_086__D6_455-mono.wav" pitchKeyTrack="1.0000" rootNote="98" start="0.000"/>
+            <sample end="170275.000" hiNote="100" hiVel="111" loNote="96" loVel="96" path="_jRhodes-both-looped Samples/As_086__D6_2103-mono.wav" pitchKeyTrack="1.0000" rootNote="98" start="0.000"/>
+            <sample end="170275.000" hiNote="100" hiVel="127" loNote="96" loVel="112" path="_jRhodes-both-looped Samples/As_086__D6_2103-mono.wav" pitchKeyTrack="1.0000" rootNote="98" start="0.000"/>
+            <sample end="49980.000" hiNote="105" hiVel="47" loNote="101" loVel="1" path="_jRhodes-both-looped Samples/As_091__G6_527-mono.wav" pitchKeyTrack="1.0000" rootNote="103" start="0.000"/>
+            <sample end="196260.000" hiNote="105" hiVel="72" loNote="101" loVel="48" path="_jRhodes-both-looped Samples/As_091__G6_457-mono.wav" pitchKeyTrack="1.0000" rootNote="103" start="0.000"/>
+            <sample end="196260.000" hiNote="105" hiVel="95" loNote="101" loVel="73" path="_jRhodes-both-looped Samples/As_091__G6_457-mono.wav" pitchKeyTrack="1.0000" rootNote="103" start="0.000"/>
+            <sample end="86496.000" hiNote="105" hiVel="111" loNote="101" loVel="96" path="_jRhodes-both-looped Samples/As_091__G6_2105-mono.wav" pitchKeyTrack="1.0000" rootNote="103" start="0.000"/>
+            <sample end="86496.000" hiNote="105" hiVel="127" loNote="101" loVel="112" path="_jRhodes-both-looped Samples/As_091__G6_2105-mono.wav" pitchKeyTrack="1.0000" rootNote="103" start="0.000"/>
+            <sample end="99267.000" hiNote="115" hiVel="47" loNote="106" loVel="1" path="_jRhodes-both-looped Samples/As_096__C7_529-mono.wav" pitchKeyTrack="1.0000" rootNote="108" start="0.000"/>
+            <sample end="108059.000" hiNote="115" hiVel="72" loNote="106" loVel="48" path="_jRhodes-both-looped Samples/As_096__C7_459-mono.wav" pitchKeyTrack="1.0000" rootNote="108" start="0.000"/>
+            <sample end="108059.000" hiNote="115" hiVel="95" loNote="106" loVel="73" path="_jRhodes-both-looped Samples/As_096__C7_459-mono.wav" pitchKeyTrack="1.0000" rootNote="108" start="0.000"/>
+            <sample end="108100.000" hiNote="115" hiVel="111" loNote="106" loVel="96" path="_jRhodes-both-looped Samples/As_096__C7_2107-mono.wav" pitchKeyTrack="1.0000" rootNote="108" start="0.000"/>
+            <sample end="108100.000" hiNote="115" hiVel="127" loNote="106" loVel="112" path="_jRhodes-both-looped Samples/As_096__C7_2107-mono.wav" pitchKeyTrack="1.0000" rootNote="108" start="0.000"/>
+        </group>
+        <group name="Group 2">
+            <sample end="50502.000" hiNote="44" hiVel="47" loNote="36" loVel="1" path="_jRhodes-both-looped Samples/As_029__F1_51-stereo.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="45820.000" hiNote="44" hiVel="72" loNote="36" loVel="48" path="_jRhodes-both-looped Samples/As_029__F1_431-stereo.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="196638.000" hiNote="44" hiVel="95" loNote="36" loVel="73" path="_jRhodes-both-looped Samples/As_029__F1_361-stereo.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="264129.000" hiNote="44" hiVel="111" loNote="36" loVel="96" path="_jRhodes-both-looped Samples/As_029__F1_279-stereo.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="322449.000" hiNote="44" hiVel="127" loNote="36" loVel="112" path="_jRhodes-both-looped Samples/As_029__F1_1109-stereo.wav" pitchKeyTrack="1.0000" rootNote="41" start="0.000"/>
+            <sample end="47536.000" hiNote="49" hiVel="47" loNote="45" loVel="1" path="_jRhodes-both-looped Samples/As_035__B1_53-stereo.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="87658.000" hiNote="49" hiVel="72" loNote="45" loVel="48" path="_jRhodes-both-looped Samples/As_035__B1_433-stereo.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="104926.000" hiNote="49" hiVel="95" loNote="45" loVel="73" path="_jRhodes-both-looped Samples/As_035__B1_363-stereo.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="142068.000" hiNote="49" hiVel="111" loNote="45" loVel="96" path="_jRhodes-both-looped Samples/As_035__B1_281-stereo.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="265511.000" hiNote="49" hiVel="127" loNote="45" loVel="112" path="_jRhodes-both-looped Samples/As_035__B1_1111-stereo.wav" pitchKeyTrack="1.0000" rootNote="47" start="0.000"/>
+            <sample end="53869.000" hiNote="54" hiVel="47" loNote="50" loVel="1" path="_jRhodes-both-looped Samples/As_040__E2_55-stereo.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="77250.000" hiNote="54" hiVel="72" loNote="50" loVel="48" path="_jRhodes-both-looped Samples/As_040__E2_435-stereo.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="95029.000" hiNote="54" hiVel="95" loNote="50" loVel="73" path="_jRhodes-both-looped Samples/As_040__E2_365-stereo.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="123402.000" hiNote="54" hiVel="111" loNote="50" loVel="96" path="_jRhodes-both-looped Samples/As_040__E2_283-stereo.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="199758.000" hiNote="54" hiVel="127" loNote="50" loVel="112" path="_jRhodes-both-looped Samples/As_040__E2_1113-stereo.wav" pitchKeyTrack="1.0000" rootNote="52" start="0.000"/>
+            <sample end="23740.000" hiNote="59" hiVel="47" loNote="55" loVel="1" path="_jRhodes-both-looped Samples/As_045__A2_57-stereo.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="58579.000" hiNote="59" hiVel="72" loNote="55" loVel="48" path="_jRhodes-both-looped Samples/As_045__A2_437-stereo.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="69018.000" hiNote="59" hiVel="95" loNote="55" loVel="73" path="_jRhodes-both-looped Samples/As_045__A2_367-stereo.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="148331.000" hiNote="59" hiVel="111" loNote="55" loVel="96" path="_jRhodes-both-looped Samples/As_045__A2_285-stereo.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="162532.000" hiNote="59" hiVel="127" loNote="55" loVel="112" path="_jRhodes-both-looped Samples/As_045__A2_1115-stereo.wav" pitchKeyTrack="1.0000" rootNote="57" start="0.000"/>
+            <sample end="50864.000" hiNote="64" hiVel="47" loNote="60" loVel="1" path="_jRhodes-both-looped Samples/As_050__D3_59-stereo.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="55391.000" hiNote="64" hiVel="72" loNote="60" loVel="48" path="_jRhodes-both-looped Samples/As_050__D3_439-stereo.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="101439.000" hiNote="64" hiVel="95" loNote="60" loVel="73" path="_jRhodes-both-looped Samples/As_050__D3_369-stereo.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="117359.000" hiNote="64" hiVel="111" loNote="60" loVel="96" path="_jRhodes-both-looped Samples/As_050__D3_287-stereo.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="180602.000" hiNote="64" hiVel="127" loNote="60" loVel="112" path="_jRhodes-both-looped Samples/As_050__D3_1117-stereo.wav" pitchKeyTrack="1.0000" rootNote="62" start="0.000"/>
+            <sample end="48410.000" hiNote="69" hiVel="47" loNote="65" loVel="1" path="_jRhodes-both-looped Samples/As_055__G3_511-stereo.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="59851.000" hiNote="69" hiVel="72" loNote="65" loVel="48" path="_jRhodes-both-looped Samples/As_055__G3_441-stereo.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="129739.000" hiNote="69" hiVel="95" loNote="65" loVel="73" path="_jRhodes-both-looped Samples/As_055__G3_371-stereo.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="144365.000" hiNote="69" hiVel="111" loNote="65" loVel="96" path="_jRhodes-both-looped Samples/As_055__G3_289-stereo.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="293888.000" hiNote="68" hiVel="127" loNote="65" loVel="112" path="_jRhodes-both-looped Samples/As_055__G3_1119-stereo.wav" pitchKeyTrack="1.0000" rootNote="67" start="0.000"/>
+            <sample end="65729.000" hiNote="72" hiVel="47" loNote="70" loVel="1" path="_jRhodes-both-looped Samples/As_059__B3_513-stereo.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="92552.000" hiNote="72" hiVel="72" loNote="70" loVel="48" path="_jRhodes-both-looped Samples/As_059__B3_443-stereo.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="129762.000" hiNote="72" hiVel="95" loNote="70" loVel="73" path="_jRhodes-both-looped Samples/As_059__B3_373-stereo.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="97397.000" hiNote="72" hiVel="111" loNote="70" loVel="96" path="_jRhodes-both-looped Samples/As_059__B3_291-stereo.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="139494.000" hiNote="72" hiVel="127" loNote="69" loVel="112" path="_jRhodes-both-looped Samples/As_059__B3_1121-stereo.wav" pitchKeyTrack="1.0000" rootNote="71" start="0.000"/>
+            <sample end="74402.000" hiNote="75" hiVel="47" loNote="73" loVel="1" path="_jRhodes-both-looped Samples/As_062__D4_513-stereo.wav" pitchKeyTrack="1.0000" rootNote="74" start="0.000"/>
+            <sample end="113835.000" hiNote="75" hiVel="72" loNote="73" loVel="48" path="_jRhodes-both-looped Samples/As_062__D4_445-stereo.wav" pitchKeyTrack="1.0000" rootNote="74" start="0.000"/>
+            <sample end="143682.000" hiNote="75" hiVel="95" loNote="73" loVel="73" path="_jRhodes-both-looped Samples/As_062__D4_375-stereo.wav" pitchKeyTrack="1.0000" rootNote="74" start="0.000"/>
+            <sample end="186222.000" hiNote="75" hiVel="111" loNote="73" loVel="96" path="_jRhodes-both-looped Samples/As_062__D4_293-stereo.wav" pitchKeyTrack="1.0000" rootNote="74" start="0.000"/>
+            <sample end="153923.000" hiNote="75" hiVel="127" loNote="73" loVel="112" path="_jRhodes-both-looped Samples/As_062__D4_1123-stereo.wav" pitchKeyTrack="1.0000" rootNote="74" start="0.000"/>
+            <sample end="60682.000" hiNote="80" hiVel="47" loNote="76" loVel="1" path="_jRhodes-both-looped Samples/As_065__F4_517-stereo.wav" pitchKeyTrack="1.0000" rootNote="77" start="0.000"/>
+            <sample end="183880.000" hiNote="80" hiVel="72" loNote="76" loVel="48" path="_jRhodes-both-looped Samples/As_065__F4_447-stereo.wav" pitchKeyTrack="1.0000" rootNote="77" start="0.000"/>
+            <sample end="162273.000" hiNote="80" hiVel="95" loNote="76" loVel="73" path="_jRhodes-both-looped Samples/As_065__F4_377-stereo.wav" pitchKeyTrack="1.0000" rootNote="77" start="0.000"/>
+            <sample end="181403.000" hiNote="80" hiVel="111" loNote="76" loVel="96" path="_jRhodes-both-looped Samples/As_065__F4_295-stereo.wav" pitchKeyTrack="1.0000" rootNote="77" start="0.000"/>
+            <sample end="156045.000" hiNote="80" hiVel="127" loNote="76" loVel="112" path="_jRhodes-both-looped Samples/As_065__F4_1125-stereo.wav" pitchKeyTrack="1.0000" rootNote="77" start="0.000"/>
+            <sample end="69765.000" hiNote="85" hiVel="47" loNote="81" loVel="1" path="_jRhodes-both-looped Samples/As_071__B4_519-stereo.wav" pitchKeyTrack="1.0000" rootNote="83" start="0.000"/>
+            <sample end="179006.000" hiNote="85" hiVel="72" loNote="81" loVel="48" path="_jRhodes-both-looped Samples/As_071__B4_449-stereo.wav" pitchKeyTrack="1.0000" rootNote="83" start="0.000"/>
+            <sample end="179006.000" hiNote="85" hiVel="95" loNote="81" loVel="73" path="_jRhodes-both-looped Samples/As_071__B4_449-stereo.wav" pitchKeyTrack="1.0000" rootNote="83" start="0.000"/>
+            <sample end="178239.000" hiNote="85" hiVel="111" loNote="81" loVel="96" path="_jRhodes-both-looped Samples/As_071__B4_297-stereo.wav" pitchKeyTrack="1.0000" rootNote="83" start="0.000"/>
+            <sample end="186550.000" hiNote="85" hiVel="127" loNote="81" loVel="112" path="_jRhodes-both-looped Samples/As_071__B4_1127-stereo.wav" pitchKeyTrack="1.0000" rootNote="83" start="0.000"/>
+            <sample end="54502.000" hiNote="90" hiVel="47" loNote="86" loVel="1" path="_jRhodes-both-looped Samples/As_076__E5_521-stereo.wav" pitchKeyTrack="1.0000" rootNote="88" start="0.000"/>
+            <sample end="102762.000" hiNote="90" hiVel="72" loNote="86" loVel="48" path="_jRhodes-both-looped Samples/As_076__E5_451-stereo.wav" pitchKeyTrack="1.0000" rootNote="88" start="0.000"/>
+            <sample end="102762.000" hiNote="90" hiVel="95" loNote="86" loVel="73" path="_jRhodes-both-looped Samples/As_076__E5_451-stereo.wav" pitchKeyTrack="1.0000" rootNote="88" start="0.000"/>
+            <sample end="166971.000" hiNote="90" hiVel="111" loNote="86" loVel="96" path="_jRhodes-both-looped Samples/As_076__E5_299-stereo.wav" pitchKeyTrack="1.0000" rootNote="88" start="0.000"/>
+            <sample end="147273.000" hiNote="90" hiVel="127" loNote="86" loVel="112" path="_jRhodes-both-looped Samples/As_076__E5_1129-stereo.wav" pitchKeyTrack="1.0000" rootNote="88" start="0.000"/>
+            <sample end="77876.000" hiNote="95" hiVel="47" loNote="91" loVel="1" path="_jRhodes-both-looped Samples/As_081__A5_523-stereo.wav" pitchKeyTrack="1.0000" rootNote="93" start="0.000"/>
+            <sample end="139668.000" hiNote="95" hiVel="72" loNote="91" loVel="48" path="_jRhodes-both-looped Samples/As_081__A5_453-stereo.wav" pitchKeyTrack="1.0000" rootNote="93" start="0.000"/>
+            <sample end="139668.000" hiNote="95" hiVel="95" loNote="91" loVel="73" path="_jRhodes-both-looped Samples/As_081__A5_453-stereo.wav" pitchKeyTrack="1.0000" rootNote="93" start="0.000"/>
+            <sample end="189679.000" hiNote="95" hiVel="111" loNote="91" loVel="96" path="_jRhodes-both-looped Samples/As_081__A5_2101-stereo.wav" pitchKeyTrack="1.0000" rootNote="93" start="0.000"/>
+            <sample end="189679.000" hiNote="95" hiVel="127" loNote="91" loVel="112" path="_jRhodes-both-looped Samples/As_081__A5_2101-stereo.wav" pitchKeyTrack="1.0000" rootNote="93" start="0.000"/>
+            <sample end="78156.000" hiNote="100" hiVel="47" loNote="96" loVel="1" path="_jRhodes-both-looped Samples/As_086__D6_525-stereo.wav" pitchKeyTrack="1.0000" rootNote="98" start="0.000"/>
+            <sample end="142314.000" hiNote="100" hiVel="72" loNote="96" loVel="48" path="_jRhodes-both-looped Samples/As_086__D6_455-stereo.wav" pitchKeyTrack="1.0000" rootNote="98" start="0.000"/>
+            <sample end="142314.000" hiNote="100" hiVel="95" loNote="96" loVel="73" path="_jRhodes-both-looped Samples/As_086__D6_455-stereo.wav" pitchKeyTrack="1.0000" rootNote="98" start="0.000"/>
+            <sample end="170275.000" hiNote="100" hiVel="111" loNote="96" loVel="96" path="_jRhodes-both-looped Samples/As_086__D6_2103-stereo.wav" pitchKeyTrack="1.0000" rootNote="98" start="0.000"/>
+            <sample end="170275.000" hiNote="100" hiVel="127" loNote="96" loVel="112" path="_jRhodes-both-looped Samples/As_086__D6_2103-stereo.wav" pitchKeyTrack="1.0000" rootNote="98" start="0.000"/>
+            <sample end="49980.000" hiNote="105" hiVel="47" loNote="101" loVel="1" path="_jRhodes-both-looped Samples/As_091__G6_527-stereo.wav" pitchKeyTrack="1.0000" rootNote="103" start="0.000"/>
+            <sample end="196260.000" hiNote="105" hiVel="72" loNote="101" loVel="48" path="_jRhodes-both-looped Samples/As_091__G6_457-stereo.wav" pitchKeyTrack="1.0000" rootNote="103" start="0.000"/>
+            <sample end="196260.000" hiNote="105" hiVel="95" loNote="101" loVel="73" path="_jRhodes-both-looped Samples/As_091__G6_457-stereo.wav" pitchKeyTrack="1.0000" rootNote="103" start="0.000"/>
+            <sample end="86496.000" hiNote="105" hiVel="111" loNote="101" loVel="96" path="_jRhodes-both-looped Samples/As_091__G6_2105-stereo.wav" pitchKeyTrack="1.0000" rootNote="103" start="0.000"/>
+            <sample end="86496.000" hiNote="105" hiVel="127" loNote="101" loVel="112" path="_jRhodes-both-looped Samples/As_091__G6_2105-stereo.wav" pitchKeyTrack="1.0000" rootNote="103" start="0.000"/>
+            <sample end="99267.000" hiNote="115" hiVel="47" loNote="106" loVel="1" path="_jRhodes-both-looped Samples/As_096__C7_529-stereo.wav" pitchKeyTrack="1.0000" rootNote="108" start="0.000"/>
+            <sample end="108059.000" hiNote="115" hiVel="72" loNote="106" loVel="48" path="_jRhodes-both-looped Samples/As_096__C7_459-stereo.wav" pitchKeyTrack="1.0000" rootNote="108" start="0.000"/>
+            <sample end="108059.000" hiNote="115" hiVel="95" loNote="106" loVel="73" path="_jRhodes-both-looped Samples/As_096__C7_459-stereo.wav" pitchKeyTrack="1.0000" rootNote="108" start="0.000"/>
+            <sample end="108100.000" hiNote="115" hiVel="111" loNote="106" loVel="96" path="_jRhodes-both-looped Samples/As_096__C7_2107-stereo.wav" pitchKeyTrack="1.0000" rootNote="108" start="0.000"/>
+            <sample end="108100.000" hiNote="115" hiVel="127" loNote="106" loVel="112" path="_jRhodes-both-looped Samples/As_096__C7_2107-stereo.wav" pitchKeyTrack="1.0000" rootNote="108" start="0.000"/>
+        </group>
+    </groups>
+  <effects>
+    <effect type="lowpass" frequency="22000.0"/>
+    <effect type="chorus"  mix="0.0" modDepth="0.2" modRate="0.2" />
+    <effect type="reverb" wetLevel="0.5"/>
+  </effects>
+  <midi>
+    <!-- This causes MIDI CC 1 to control the 4th knob (cutoff) -->
+    <cc number="1">
+      <binding level="ui" type="control" parameter="VALUE" position="3" 
+               translation="linear" translationOutputMin="0" 
+               translationOutputMax="1" />
+    </cc>
+  </midi>
+</DecentSampler>
